@@ -14,8 +14,8 @@
 } 
 
 @media screen and (max-width: 2340px) { 
-	div.title {width: 1080px;} 
-	div.page  {width: 1080px;}
+	div.title {width: 2340px;} 
+	div.page  {width: 2340px;}
 	body{
 		background-image: url("../img/background.webp");
 	}
