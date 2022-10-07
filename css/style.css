@@ -1,0 +1,146 @@
+@font-face {
+	font-family: "Bebas";
+	src: url("../fonts/bebas-neue-book.woff2") format("woff2"), url("../fonts/bebas-neue-book.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@media screen and (max-width: 1314) { 
+	div.title {width: 1314px;} 
+	div.page  {width: 1314px;}
+} 
+
+@media screen and (max-width: 1140px) { 
+	div.title {width: 1024px;} 
+	div.page  {width: 1024px;}
+} 
+
+@media screen and (max-width: 992px) { 
+	div.title {width: 970px;}
+	div.page  {width: 970px;}
+} 
+
+[class*="__container"]{
+	max-width: 1314px;
+	margin: 0 auto;
+}
+
+body{
+	font-family: "Bebas";
+	font-size: 24px;
+	background: url("../img/background.jpg") center center/cover no-repeat fixed;
+}
+
+.title{
+	margin-top: 40px;
+	margin-bottom: 100px;
+	line-height: 1.6;
+	background: url("../img/icons/git.webp") 0 0/70px 70px no-repeat;
+}
+
+.title-one{
+	font-size: 30px;
+	color: blue;
+}
+
+
+.title-second{
+	padding-left: 15px;
+	font-size: 20px;
+	color: yellow;
+}
+
+.zeep,
+.alex:hover{
+	color: red;
+}
+
+.title-one,
+.title-second{
+	margin-left: 80px;
+}
+
+form {
+	position: relative;
+	width: auto;
+	float: right;
+	top: -80px;
+}
+
+input {
+	width: 250px;
+	height: 42px;
+	padding-left: 15px;
+	border-radius: 42px;
+	border: 2px solid #77177c;
+	background: #e6e5e9;
+	outline: none;
+	position: relative;
+	transition: 0.3s linear;
+}
+
+input:focus {
+	width: 300px;
+}
+
+button {
+	width: 42px;
+	height: 42px;
+	background: none;
+	border: none;
+	position: absolute;
+	top: -2px;
+	right: 0;
+}
+
+.page__container{
+	width: 800px;
+}
+
+.first-block{
+	margin-bottom: 42px;
+}
+
+.site-base__container{
+	float: left;
+	display: block;
+	margin-right: 25px;
+	margin-bottom: 24px;
+}
+
+.site__base li{
+	margin-bottom: 10px;
+	max-width: 200px;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	min-height: 40px;
+	padding: 0px 20px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 25px;
+	border-radius: 10px;
+	position: relative;
+	top: 0;
+}
+
+.button__base {
+	color: #fff;
+	background-color: #5e5373;
+	box-shadow: 0 5px 0px #3c354a;
+	transition: 0s;
+}
+
+.button__base:hover {
+	top: 2px;
+	box-shadow: 0 3px 0px #4d19b5;
+	background-color: #a70ca4;
+}
+
+.text-games {
+	color: #d9ef11;
+	line-height: 1.6;
+	font-size: 30px;
+	margin-left: 35px;
+}
