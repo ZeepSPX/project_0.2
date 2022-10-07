@@ -5,28 +5,19 @@
 	font-style: normal;
 }
 
-@media screen and (max-width: 1080) { 
-	div.title {width: 1080px;} 
-	div.page  {width: 1080px;}
-	body{
-		background-image: url("../img/background.webp");
-	}
+@media screen and (max-width: 1920) { 
+	div.title {width: 1920px;} 
+	div.page  {width: 1920px;}
 } 
 
-@media screen and (max-width: 2340px) { 
-	div.title {width: 2340px;} 
-	div.page  {width: 2340px;}
-	body{
-		background-image: url("../img/background.webp");
-	}
+@media screen and (max-width: 1080px) { 
+	div.title {width: 1080px;} 
+	div.page  {width: 1080px;}
 } 
 
 @media screen and (max-width: 992px) { 
 	div.title {width: 970px;}
 	div.page  {width: 970px;}
-	body{
-		background-image: url("../img/background.webp");
-	}
 } 
 
 [class*="__container"]{
@@ -37,7 +28,7 @@
 body{
 	font-family: "Bebas";
 	font-size: 24px;
-	background: url("../img/background.jpg") center center/cover no-repeat local;
+	background: url("../img/background.jpg") center center/cover no-repeat fixed;
 }
 
 .title{
