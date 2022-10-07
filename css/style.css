@@ -8,16 +8,20 @@
 @media screen and (max-width: 1920) { 
 	div.title {width: 1920px;} 
 	div.page  {width: 1920px;}
+	body {width: 1920px;} 
 } 
 
 @media screen and (max-width: 1080px) { 
 	div.title {width: 1080px;} 
 	div.page  {width: 1080px;}
+	body {width: 1080px;}
+
 } 
 
 @media screen and (max-width: 992px) { 
 	div.title {width: 970px;}
 	div.page  {width: 970px;}
+	body {width: 970px;}
 } 
 
 [class*="__container"]{
