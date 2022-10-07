@@ -58,8 +58,7 @@ body{
 	color: yellow;
 }
 
-.zeep,
-.alex:hover{
+.hover:hover{
 	content: "";
 	color: red;
 }
