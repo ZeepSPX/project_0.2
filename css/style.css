@@ -5,7 +5,7 @@
 	font-style: normal;
 }
 
-@media screen and (max-width: 1920) { 
+@media screen and (max-width: 1920px) { 
 	div.title {width: 1920px;} 
 	div.page  {width: 1920px;}
 	body {width: 1920px;} 
