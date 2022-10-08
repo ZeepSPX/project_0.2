@@ -14,8 +14,8 @@
 body{
 	font-family: "Bebas";
 	font-size: 24px;
-	height: 90vh;
-	background: url("../img/background.jpg") center center/cover no-repeat;
+	height: 100%;
+	background: url("../img/background_computer.jpg") center center/cover no-repeat;
 	/* background-image: url("../img/background.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -27,6 +27,8 @@ body{
 	margin-bottom: 100px;
 	line-height: 1.6;
 	background: url("../img/icons/git.webp") 0 0/70px 70px no-repeat;
+	display: flex;
+	justify-content: space-between;
 }
 
 .title-one{
@@ -51,10 +53,10 @@ body{
 }
 
 form {
-	position: relative;
+	/* position: relative; */
 	width: auto;
-	float: right;
-	top: -80px;
+	/* float: right; */
+	/* top: -80px; */
 }
 
 input {
@@ -101,7 +103,6 @@ button {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 15px;
-	
 }
 .site__base li{
 	margin-bottom: 10px;
@@ -140,11 +141,12 @@ button {
 	font-size: 30px;
 	margin-left: 35px;
 }
-/* @media screen and (max-width: 1920px) { 
-	div.title {width: 1920px;} 
-	div.page  {width: 1920px;}
-	body {width: 1920px;} 
-}  */
+@media (max-width: 940px) { 
+	.site__base{
+		gap: 10px;
+	}
+} 
+
 
 /* @media screen and (max-width: 1080px) { 
 	div.title {width: 1080px;} 
