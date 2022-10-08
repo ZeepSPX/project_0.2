@@ -145,7 +145,7 @@ button {
 	body {width: 1920px;} 
 }  */
 
-@media screen and (max-width: 1080px) { 
+/* @media screen and (max-width: 1080px) { 
 	div.title {width: 1080px;} 
 	div.page  {width: 1080px;}
 	body {width: 1080px;}
@@ -156,4 +156,4 @@ button {
 	div.title {width: 970px;}
 	div.page  {width: 970px;}
 	body {width: 970px;}
-} 
+}  */
